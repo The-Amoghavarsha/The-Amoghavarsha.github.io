@@ -6,5 +6,16 @@
     <description>Recent content on Amoghavarsha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test test</title>
+      <link>/ctf/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ctf/test/</guid>
+      <description>This is a test message</description>
+      <content>&lt;p&gt;This is a test message&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
