@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
     <loc>/llp/</loc>
     <priority>0</priority>
   </url>
@@ -44,11 +48,19 @@
   </url>
   
   <url>
+    <loc>/tags/personal/</loc>
+  </url>
+  
+  <url>
     <loc>/osintforall/steganography/steganography/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/whataboutabout/whataboutabout/</loc>
   </url>
   
 </urlset>
