@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/whataboutabout/whataboutabout/</loc>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
   </url>
   
@@ -40,7 +44,15 @@
   </url>
   
   <url>
+    <loc>/tags/childhood/</loc>
+  </url>
+  
+  <url>
     <loc>/osintforall/email/email/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/childwood/childwood/</loc>
   </url>
   
   <url>
@@ -57,10 +69,6 @@
   
   <url>
     <loc>/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>/about/whataboutabout/whataboutabout/</loc>
   </url>
   
 </urlset>
