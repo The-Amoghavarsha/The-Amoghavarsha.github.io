@@ -17,11 +17,31 @@
     </item>
     
     <item>
+      <title>gaming</title>
+      <link>/tags/gaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gaming/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
       <title>personal</title>
       <link>/tags/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/personal/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>recent</title>
+      <link>/tags/recent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/recent/</guid>
       <description></description>
       <content></content>
     </item>
