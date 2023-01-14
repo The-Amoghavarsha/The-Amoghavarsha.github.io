@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/whataboutabout/whataboutabout/</loc>
+    <loc>/blogs/whataboutabout/whataboutabout/</loc>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/blogs/</loc>
   </url>
   
   <url>
@@ -56,7 +56,11 @@
   </url>
   
   <url>
-    <loc>/about/childhood/childhood/</loc>
+    <loc>/blogs/childhood/childhood/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/movies/</loc>
   </url>
   
   <url>
@@ -64,7 +68,7 @@
   </url>
   
   <url>
-    <loc>/about/newfoundlove/newfoundlove/</loc>
+    <loc>/blogs/newfoundlove/newfoundlove/</loc>
   </url>
   
   <url>
@@ -73,6 +77,10 @@
   
   <url>
     <loc>/tags/recent/</loc>
+  </url>
+  
+  <url>
+    <loc>/blogs/movies/movies/</loc>
   </url>
   
   <url>
