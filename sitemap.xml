@@ -11,10 +11,6 @@
   </url>
   
   <url>
-    <loc>/blogs/programming/programming/</loc>
-  </url>
-  
-  <url>
     <loc>/llp/</loc>
     <priority>0</priority>
   </url>
@@ -57,6 +53,10 @@
   
   <url>
     <loc>/tags/gaming/</loc>
+  </url>
+  
+  <url>
+    <loc>/blogs/programming/programming/</loc>
   </url>
   
   <url>
