@@ -1,114 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/blogs/whataboutabout/whataboutabout/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blogs/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/llp/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/osintforall/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/social/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/support/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/systems/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/llp/aib/aib/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/childhood/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/osintforall/email/email/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/gaming/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/insight/</loc>
-  </url>
-  
-  <url>
-    <loc>/blogs/programming/programming/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blogs/mindbending/mindbinding/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blogs/childhood/childhood/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/movies/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blogs/newfoundlove/newfoundlove/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/opinion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/personal/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/recent/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blogs/movies/movies/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/osintforall/steganography/steganography/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/blogs/web-1.5/web-1.5/</loc>
   </url>
-  
 </urlset>
