@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blogs/whataboutabout/whataboutabout/</loc>
-  </url><url>
     <loc>/blogs/</loc>
   </url><url>
     <loc>/llp/</loc>
@@ -56,5 +54,7 @@
     <loc>/tags/</loc>
   </url><url>
     <loc>/blogs/web-1.5/web-1.5/</loc>
+  </url><url>
+    <loc>/blogs/whataboutabout/whataboutabout/</loc>
   </url>
 </urlset>
