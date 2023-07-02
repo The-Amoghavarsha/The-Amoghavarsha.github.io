@@ -28,8 +28,8 @@ piece of data or value.&lt;/p&gt;
 &lt;p&gt;You might have heard the term “place holder” and that’s exactly what
 a variable is. So how to store and retrieve information through
 variables?&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;place=&amp;#34;World&amp;#34;
-echo &amp;#34;Hello $place&amp;#34; 
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;place=&amp;quot;World&amp;quot;
+echo &amp;quot;Hello $place&amp;quot; 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/2.png&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In the above code snippet, place is a variable and World is the
 value assigned to the variable. In the next line, the value assigned to the variable is retrieved through echo command. As
@@ -38,8 +38,8 @@ bash. An important thing to note here is, “=” doesn’t mean variable
 name has a constant value, it just means that a value is assigned to
 a variable name.&lt;/p&gt;
 &lt;p&gt;Now the value of variable place could be varied.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;place=&amp;#34;Mars&amp;#34;
-echo &amp;#34;Hello $place&amp;#34;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;place=&amp;quot;Mars&amp;quot;
+echo &amp;quot;Hello $place&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/3.png&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Now the value of variable has changed to Mars from World. Imagine a
 box where you could place an item and replace that item whenever you
@@ -55,7 +55,7 @@ it could hold more than one value.
 A typical array consists of an array name and an index. Each index
 number associates with an element in the array.
 Lets see how to create an array.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies=(&amp;#39;Primer&amp;#39; &amp;#39;Inception&amp;#39; &amp;#39;Enemy&amp;#39; &amp;#39;Tenet&amp;#39;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies=(&#39;Primer&#39; &#39;Inception&#39; &#39;Enemy&#39; &#39;Tenet&#39;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Two things to keep in mind. Unlike other programming languages, bash
 arrays are not led by commas after every element but spaces. There
 is no space after array name(i.e, movies=), it’s followed by “=”. If
@@ -83,14 +83,14 @@ Enemy.&lt;/p&gt;
 &lt;p&gt;You could also assign elements to the array explicitly in three
 ways: Subscript Assignment, Index Assignment and assignment by name.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Subscript Assignment&lt;/em&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies=([4]=&amp;#39;Ten cloverfield lane&amp;#39; [5]=&amp;#39;Timecrimes&amp;#39;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies=([4]=&#39;Ten cloverfield lane&#39; [5]=&#39;Timecrimes&#39;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/9.png&#34; alt=&#34;9&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Index Assignment&lt;/em&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies[1]=&amp;#39;Vanilla Sky&amp;#39;
-movies[2]=&amp;#39;Mr.Nobody&amp;#39;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies[1]=&#39;Vanilla Sky&#39;
+movies[2]=&#39;Mr.Nobody&#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/10.png&#34; alt=&#34;10&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Assignment by names&lt;/em&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies[zero]=&amp;#39;Magnolia&amp;#39;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;movies[zero]=&#39;Magnolia&#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/11.png&#34; alt=&#34;11&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What if you want to print the elements from one particular index to
 another?&lt;/p&gt;
@@ -101,11 +101,11 @@ from index 1 to index 3.&lt;/p&gt;
 &lt;p&gt;Here you are telling the array that from all its elements(@), start
 from index 1 and print all the following elements.&lt;/p&gt;
 &lt;p&gt;What if, you want to access the index numbers?&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;echo &amp;#34;${!movies[@]}&amp;#34;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;echo &amp;quot;${!movies[@]}&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/14.png&#34; alt=&#34;14&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The “!” symbol before array name helps to retrieve indices.&lt;/p&gt;
 &lt;p&gt;What if you want to see how many elements are there in an array?&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;echo &amp;#34;${#movies[@]}&amp;#34;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;echo &amp;quot;${#movies[@]}&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/15.png&#34; alt=&#34;15&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The “#” symbol before array name helps to retrieve number of
 elements.&lt;/p&gt;
@@ -121,9 +121,9 @@ above example, &lt;em&gt;seq&lt;/em&gt; is placed in between ` `.&lt;/p&gt;
 &lt;p&gt;Now lets try to write a simple shell script from the above
 learnings.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/llp/AIB/usr/llp/AIB/bin/llp/AIB/bash
-tvshows=(&amp;#39;Mr.Robot&amp;#39; &amp;#39;Homeland&amp;#39; &amp;#39;The Americans&amp;#39; &amp;#39;Death Note&amp;#39; &amp;#39;Erased&amp;#39;)
-for a in &amp;#34;${!tvshows[@]}&amp;#34;; do
-printf &amp;#34;${tvshows[$a]} has an index number of $a\n&amp;#34;
+tvshows=(&#39;Mr.Robot&#39; &#39;Homeland&#39; &#39;The Americans&#39; &#39;Death Note&#39; &#39;Erased&#39;)
+for a in &amp;quot;${!tvshows[@]}&amp;quot;; do
+printf &amp;quot;${tvshows[$a]} has an index number of $a\n&amp;quot;
 done
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Let’s save the code as lp.sh. Next lets make it executable – chmod
 +x lp.sh.&lt;/p&gt;
@@ -131,7 +131,7 @@ done
 &lt;p&gt;When the program is executed, you get the above result.&lt;/p&gt;
 &lt;h1 id=&#34;array-modification&#34;&gt;Array Modification&lt;/h1&gt;
 &lt;p&gt;Lets create a new array.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;names=(&amp;#39;Luther&amp;#39; &amp;#39;Ambrose&amp;#39; &amp;#39;Reddington&amp;#39; &amp;#39;Mare&amp;#39;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;names=(&#39;Luther&#39; &#39;Ambrose&#39; &#39;Reddington&#39; &#39;Mare&#39;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To change the value of index 2 you could do the following.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;names[2]=’Carrie’
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/19.png&#34; alt=&#34;19&#34;&gt;&lt;/p&gt;
@@ -146,7 +146,7 @@ array?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/llp/AIB/23.png&#34; alt=&#34;23&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What if you want to merge two arrays?&lt;/p&gt;
 &lt;p&gt;Lets create another array.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;surnames=(&amp;#39;Dexter&amp;#39; &amp;#39;Hannibal&amp;#39; &amp;#39;Broody&amp;#39; &amp;#39;Dan&amp;#39; &amp;#39;Gordan&amp;#39; &amp;#39;Steve&amp;#39;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;surnames=(&#39;Dexter&#39; &#39;Hannibal&#39; &#39;Broody&#39; &#39;Dan&#39; &#39;Gordan&#39; &#39;Steve&#39;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;/llp/AIB/24.png&#34; alt=&#34;24&#34;&gt;&lt;/p&gt;
 &lt;p&gt;What if you want to delete an array?&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;unset &amp;lt;array_name&amp;gt;
@@ -309,7 +309,7 @@ anytime soon.&lt;/p&gt;
       
       <guid>/blogs/mindbending/mindbinding/</guid>
       <description>Mind-bending/non-linear/mind-twisting movies have a special place in my heart. So here&amp;rsquo;s a list of some non-linear movies that I&amp;rsquo;ve watched, those of which I can remember.
-Inception Interstellar Identity (2003) Mr.Nobody (2009) Mulholland Drive 2001: A Space Odyssey (1968) Memento (2000) Eternal Sunshine of the Spotless Mind (2004) Groundhog Day Black Swan (2010) Pi (1998) Shutter Island (2010) The Butterfly Effect (2004) Triangle (2009) Confessions (2010) [Japanese] Donnie Darko (2001) 3-Iron (2004) [Korean] Be With You (2018) [Korean] Fight Club The Man from Earth (2007) Source Code (2011) Birdman (2014) The Fountain (2006) Timecrimes (2007) [Spanish] Paprika (2006) [Anime] Mirage (2018) [Spanish] The Double (2013) Predestination (2014) Synecdoche, New York (2008) Primer (2004) Enemy (2013) Vanilla Sky (2001) Looper (2012) The Others (2001) Mother!</description>
+ Inception Interstellar Identity (2003) Mr.Nobody (2009) Mulholland Drive 2001: A Space Odyssey (1968) Memento (2000) Eternal Sunshine of the Spotless Mind (2004) Groundhog Day Black Swan (2010) Pi (1998) Shutter Island (2010) The Butterfly Effect (2004) Triangle (2009) Confessions (2010) [Japanese] Donnie Darko (2001) 3-Iron (2004) [Korean] Be With You (2018) [Korean] Fight Club The Man from Earth (2007) Source Code (2011) Birdman (2014) The Fountain (2006) Timecrimes (2007) [Spanish] Paprika (2006) [Anime] Mirage (2018) [Spanish] The Double (2013) Predestination (2014) Synecdoche, New York (2008) Primer (2004) Enemy (2013) Vanilla Sky (2001) Looper (2012) The Others (2001) Mother!</description>
       <content>&lt;p&gt;Mind-bending/non-linear/mind-twisting movies have a special place in my heart. So here&amp;rsquo;s a list of some non-linear movies that I&amp;rsquo;ve watched, those of which I can remember.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Inception&lt;/li&gt;
@@ -432,7 +432,7 @@ Prelude It was inevitable that I should have to switch to some starter GNU/Linux
 &lt;h1 id=&#34;prelude&#34;&gt;Prelude&lt;/h1&gt;
 &lt;p&gt;It was inevitable that I should have to switch to some starter GNU/Linux distributions. As there was a situation where I could not have suddenly switched to the Masterrace distros, I started to look into the distro&amp;rsquo;s software manager and then I found the category called &amp;ldquo;Games&amp;rdquo;.&lt;/p&gt;
 &lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
-&lt;p&gt;My friends are great gamers, but not me. The reason being I was never raised in the cradle of computers or technology. Another reason is, I just find it wasteful when a lot of GPUs&amp;rsquo; energy gets sucked in by high end games. But, here we are today. The open source community makes games where I can read the source code and they are minimal.&lt;/p&gt;
+&lt;p&gt;My friends are great gamers, but not me. The reason being I was never raised in the cradle of computers or technology. Another reason is, I just find it wasteful when a lot of GPUs&#39; energy gets sucked in by high end games. But, here we are today. The open source community makes games where I can read the source code and they are minimal.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s not my first time that I have gotten to the nine day wonder of gaming. I used to play some FPS games on my Linux machine, then I used to do the &amp;lsquo;silent quitting&amp;rsquo; without regrets. But this time, it&amp;rsquo;s different.&lt;/p&gt;
 &lt;h1 id=&#34;offshoot&#34;&gt;Offshoot&lt;/h1&gt;
 &lt;p&gt;I found many games (or maybe I exhausted all of them during the research) which are minimal and keep me entertaining during the break. The irony is, a break is metaphorical. Some are really addictive. I don&amp;rsquo;t want to mention every single one of them here, especially, when you can find some really good ones that are your type.&lt;/p&gt;
