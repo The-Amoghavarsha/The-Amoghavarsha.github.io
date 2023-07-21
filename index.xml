@@ -6,15 +6,28 @@
     <description>Recent content on Amoghavarsha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://amoghavarsha.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 19:34:01 +0530</lastBuildDate><atom:link href="https://amoghavarsha.in/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arrays Are Powerful In Bash</title>
       <link>https://amoghavarsha.in/posts/aib/aib/</link>
-      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Jul 2023 19:34:01 +0530</pubDate>
       
       <guid>https://amoghavarsha.in/posts/aib/aib/</guid>
       <description>“$” might symbolize dollars to many of you, but for bash users it’s the holy grail for retrieving stored data. Speaking of which, do you know what’s the common place to store a piece of data? A variable.
 Variable The name itself incurs that variable is something that could be varied. So is it like a chameleon that changes colors all the time? Not precisely, if you remember from the intro its a common place to store a piece of data.</description>
+    </item>
+    
+    <item>
+      <title>Fuzzing With Good Old Radamsa</title>
+      <link>https://amoghavarsha.in/posts/radamsa/radamsa/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://amoghavarsha.in/posts/radamsa/radamsa/</guid>
+      <description>&amp;ldquo;1337051nT&amp;rdquo;
+&amp;ldquo;S3rlockedOSINTForall&amp;rdquo;
+&amp;ldquo;oS$INTFOR@LL&amp;rdquo;
+Did you know that Osint For All has many secret domain names? Just kidding, I don’t want to fuzz around any further, or maybe I do? So let’s jump in to the world of Radamsa.
+Radamsa is a fuzzer. In technical terms, it is a test case generator for robustness testing. Typically, it is used to test how well a program could tolerate potentially malicious input. It works by reading files of valid data and generating random outputs every time from them.</description>
     </item>
     
     <item>
@@ -35,6 +48,16 @@ Variable The name itself incurs that variable is something that could be varied.
       <guid>https://amoghavarsha.in/posts/movies/movies/</guid>
       <description>I am a big movie buff. Since the day I started using the computer, before diving into the internals of the computer, I’ve spent a lot of time watching movies. Maybe that’s a fractal stain in almost all Indian Engineering colleges. Even now, I love to watch movies/TV shows like the rest.
 Phase 1 I don’t exactly remember what was the first foreign film that I watched. Back then, I used to have a friend who gave me a lot of English movies, such as Inception (which I watched after five years), Fight Club (which I watched lethargically), Prestige (which I watched but didn’t remember).</description>
+    </item>
+    
+    <item>
+      <title>Steganographic Tools For Beginners</title>
+      <link>https://amoghavarsha.in/posts/steganography/steganography/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://amoghavarsha.in/posts/steganography/steganography/</guid>
+      <description>Hiding in plain sight has many dimensions. Sometimes, whatever you are looking for is before you, but you cannot see it; other times, it’s right before you but you don’t notice.
+Steganography has been an art since the ancient days used to write hidden messages. It has evolved over the ages, and has changed form for the better. Nowadays we have software to hide and obfuscate messages. In this article, we’ll take a look at some amazing steganographic tools which are tiny yet powerful.</description>
     </item>
     
     <item>

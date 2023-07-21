@@ -27,15 +27,19 @@
 
 
 
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="Person of multiple interests" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://amoghavarsha.in/tags/" /><meta property="og:site_name" content="Amoghavarsha" />
+<meta property="og:title" content="Steganographic Tools For Beginners" />
+<meta property="og:description" content="Hiding in plain sight has many dimensions. Sometimes, whatever you are looking for is before you, but you cannot see it; other times, it’s right before you but you don’t notice.
+Steganography has been an art since the ancient days used to write hidden messages. It has evolved over the ages, and has changed form for the better. Nowadays we have software to hide and obfuscate messages. In this article, we’ll take a look at some amazing steganographic tools which are tiny yet powerful." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://amoghavarsha.in/posts/steganography/steganography/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-21T00:00:00+00:00" /><meta property="og:site_name" content="Amoghavarsha" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Person of multiple interests"/>
+<meta name="twitter:title" content="Steganographic Tools For Beginners"/>
+<meta name="twitter:description" content="Hiding in plain sight has many dimensions. Sometimes, whatever you are looking for is before you, but you cannot see it; other times, it’s right before you but you don’t notice.
+Steganography has been an art since the ancient days used to write hidden messages. It has evolved over the ages, and has changed form for the better. Nowadays we have software to hide and obfuscate messages. In this article, we’ll take a look at some amazing steganographic tools which are tiny yet powerful."/>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -72,11 +76,14 @@
     }
 </style>
 
-<meta name="description" content="Tags of Amoghavarsha">
-<link rel="stylesheet" href="/css/list.css" media="all">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-5/all-5.15.4.js"></script>
 
   <title>
-Tags | Amoghavarsha
+Steganographic Tools For Beginners | Amoghavarsha
 
   </title>
 </head>
@@ -223,91 +230,195 @@ Tags | Amoghavarsha
     </nav>
 </header>
 <div id="content">
-<div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">Tags</h2>
-    <div class="row">
-        
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card h-100">
-                <div class="card-body bg-transparent p-4 shadow-sm">
-                    <a href="/tags/arrays/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="arrays">arrays</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="mt-auto post-footer bg-transparent py-3">
-                    <span class="float-start bg-transparent">July 21, 2023</span>
-                    <a href="/tags/arrays/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Steganographic Tools For Beginners</h1>
+            <div class="text-center">
+              Amogh 
+              <small>|</small>
+              Jul 21, 2023
             </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid" src="/images/feature/s.jpg" alt="Steganographic Tools For Beginners">
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>Hiding in plain sight has many dimensions. Sometimes, whatever you
+are looking for is before you, but you cannot see it; other times,
+it’s right before you but you don’t notice.</p>
+<p>Steganography has been an art since the <a href="https://en.wikipedia.org/wiki/Steganography#History">ancient</a> days used to write
+hidden messages. It has evolved over the ages, and has changed form
+for the better. Nowadays we have software to hide and obfuscate
+messages. In this article, we’ll take a look at some amazing
+steganographic tools which are tiny yet powerful.</p>
+<h1 id="steghide">Steghide</h1>
+<p>Steghide is one of the most popular steganographic tools out there.
+It comes preinstalled in some of the GNU/Linux distributions. If
+it’s not installed, you can download it from your package manager or
+you can check their <a href="https://github.com/StefanoDeVuono/steghide">Github</a>. It can hide data inside images and audio
+files, it supports JPEG, BMP, WAV and AU formats.</p>
+<p>Let’s create a text file named secret.txt and try to hide it inside
+an image.</p>
+<p><img src="/posts/steganography/1.png" alt="1"></p>
+<pre tabindex="0"><code>steghide embed -cf yoda.jpg -ef secret.txt
+</code></pre><p>Here -cf is cover file and -ef is embed file. The caveat is, you
+should make sure your cover file is larger than your embed file,
+that’s a no brainer.</p>
+<p><img src="/posts/steganography/2.png" alt="2"></p>
+<p>Now let’s delete the secret.txt and see if we can extract it back
+from the cover file.</p>
+<pre tabindex="0"><code>steghide extract -sf yoda.jpg
+</code></pre><p><img src="/posts/steganography/3.png" alt="3"></p>
+<p>Here the -sf is stego file.</p>
+<p><img src="/posts/steganography/4.png" alt="4"></p>
+<p>Our secret.txt is extracted. Wanna see what’s inside?</p>
+<p><img src="/posts/steganography/5.png" alt="5"></p>
+<h1 id="strings">Strings</h1>
+<p>Let’s digress from the topic a bit. Strings is a command line tool
+that helps to display printable strings in a file. In a sense, it’s
+just like cat command. If you didn’t know already, now it’s a chance
+to explore it.</p>
+<p><img src="/posts/steganography/6.png" alt="6"></p>
+<p>strings can be super helpful in steganographic challenges. For
+instance, let’s say, a flag or password is embedded inside an image
+file. And you have to match or put printable strings together in
+order to solve the challenge.</p>
+<p>If you cat out the file, you will end up with gibberish characters
+printed out on to your screen.</p>
+<pre tabindex="0"><code>cat yoda.jpg
+</code></pre><p><img src="/posts/steganography/7.png" alt="7"></p>
+<p>Whereas, if you use strings, you’ll get a bunch of strings with
+printable characters.</p>
+<pre tabindex="0"><code>strings yoda.jpg
+</code></pre><p><img src="/posts/steganography/8.png" alt="8"></p>
+<p>Among them, one of it might be your password or flag or a clue to
+the next stage.</p>
+<h1 id="exiftool">Exiftool</h1>
+<p>Exif is a good place to hide your secret message. Exiftool helps to
+view the information about metadata of images or files. Besides,
+embedding secret messages, exif data could provide some juicy
+information about the image, such as, geo coordinates, camera model,
+creation date and so on. You can use simple tools like gThumb or
+GIMP to edit medtadata.</p>
+<pre tabindex="0"><code>exiftool yoda.jpg
+</code></pre><p><img src="/posts/steganography/9.png" alt="9"></p>
+<h1 id="binwalk">Binwalk</h1>
+<p><a href="https://www.kali.org/tools/binwalk/">Binwalk</a> is a tool for searching binary images for embedded files and
+executable code. It is actually a forensic tool, which helps to
+analyse and audit binaries. It gives plenty of options to tinker
+around binary files. Let’s see couple of options.</p>
+<p>Here we have source code of a web page.</p>
+<p><img src="/posts/steganography/10.png" alt="10"></p>
+<p>It just displays the embedded data in a given file.
+If you want to extract the data from a binary, use -e flag.</p>
+<p><img src="/posts/steganography/11.png" alt="11"></p>
+<p>The file is extracted to _OpenShot-v2.6.1-x86_64.AppImage.extracted
+folder.</p>
+<p><img src="/posts/steganography/12.png" alt="12"></p>
+<h1 id="wavsteg">Wavsteg</h1>
+<p>WavSteg is a tool written in Python, which can hide data in files
+with a wav format.</p>
+<pre tabindex="0"><code>stegolsb wavsteg -h -i piano.wav -s secret.txt -o stego.wav -n 2
+</code></pre><p><img src="/posts/steganography/13.png" alt="13"></p>
+<p><img src="/posts/steganography/14.png" alt="14"></p>
+<p>While extracting data, you have to specify the exact size of
+embedded file(secret.txt) in bytes</p>
+<p><img src="/posts/steganography/15.png" alt="15"></p>
+<h1 id="other-useful-resources">Other Useful Resources</h1>
+<p>There are many online tools and professional software that could
+facilitate steganography. Some of them are in the following.</p>
+<ul>
+<li><a href="https://www.dcode.fr/">decode.fr</a></li>
+<li><a href="https://www.audacityteam.org/">Audacity</a></li>
+<li><a href="https://github.com/Paradoxis/StegCracker">StegCracker</a></li>
+<li><a href="https://github.com/zed-0xff/zsteg">Zsteg</a></li>
+<li><a href="https://github.com/korczis/foremost">Foremost</a></li>
+<li><a href="https://github.com/eugenekolo/sec-tools/tree/master/stego/stegsolve/stegsolve">Stegsolve</a></li>
+<li><a href="https://www.sonicvisualiser.org/">Sonic Visualiser</a></li>
+</ul>
+
+          </article>
         </div>
-        
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card h-100">
-                <div class="card-body bg-transparent p-4 shadow-sm">
-                    <a href="/tags/linux/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="linux">linux</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="mt-auto post-footer bg-transparent py-3">
-                    <span class="float-start bg-transparent">July 21, 2023</span>
-                    <a href="/tags/linux/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="https://amoghavarsha.in/tags/steganography" target="_blank">steganography</a></li>
+              
+              <li class="list-inline-item"><a href="https://amoghavarsha.in/tags/ctf" target="_blank">ctf</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=Steganographic%20Tools%20For%20Beginners&url=https%3a%2f%2famoghavarsha.in%2fposts%2fsteganography%2fsteganography%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Steganographic%20Tools%20For%20Beginners: https%3a%2f%2famoghavarsha.in%2fposts%2fsteganography%2fsteganography%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="mailto:?subject=Steganographic%20Tools%20For%20Beginners&amp;body=Check out this site https%3a%2f%2famoghavarsha.in%2fposts%2fsteganography%2fsteganography%2f">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </aside>
+          
         </div>
-        
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card h-100">
-                <div class="card-body bg-transparent p-4 shadow-sm">
-                    <a href="/tags/ctf/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="ctf">ctf</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="mt-auto post-footer bg-transparent py-3">
-                    <span class="float-start bg-transparent">July 21, 2023</span>
-                    <a href="/tags/ctf/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row justify-content-center">
-            <div class="col-auto m-3">
-                
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/3/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-            </div>
-        </div>
+      </div>
     </div>
-</div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
 
   </div><footer>
     <div class="container py-3" id="recent-posts">
