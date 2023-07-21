@@ -1,0 +1,41 @@
+/* projects */
+
+#projects a {
+  text-decoration: none;
+}
+
+#projects h3 {
+  color: var(--text-secondary-color) !important;
+}
+
+#projects .card {
+  background-color: var(--secondary-color) !important;
+  border-radius: 1rem;
+  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+  /* transform: translate3d(0, 0, 0); */
+  transition: box-shadow 0.2s linear, opacity 0.2s linear;
+  border: 2px solid transparent;
+}
+
+#projects a.card {
+  cursor: alias;
+}
+
+#projects .card h5 {
+  color: var(--text-color) !important;
+  opacity: 0.9;
+}
+
+#projects .card:hover {
+  border: 2px solid var(--text-color);
+  transition: 0.3s;
+}
+#projects .card:focus {
+  border: 2px solid var(--text-color);
+  transition: 0.3s;
+}
+
+#projects .card-text {
+  background-color: var(--secondary-color) !important;
+  color: var(--text-secondary-color) !important;
+}

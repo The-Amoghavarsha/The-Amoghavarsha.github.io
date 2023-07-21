@@ -2,56 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blogs/</loc>
+    <loc>https://amoghavarsha.in/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/llp/</loc>
-    <priority>0</priority>
+    <loc>https://amoghavarsha.in/tags/arrays/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/osintforall/</loc>
-    <priority>0</priority>
+    <loc>https://amoghavarsha.in/posts/aib/aib/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/social/</loc>
-    <priority>0</priority>
+    <loc>https://amoghavarsha.in/tags/linux/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/support/</loc>
-    <priority>0</priority>
+    <loc>https://amoghavarsha.in/posts/non-linear/non-linear/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/llp/aib/aib/</loc>
+    <loc>https://amoghavarsha.in/tags/movies/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://amoghavarsha.in/tags/non-linear/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/childhood/</loc>
+    <loc>https://amoghavarsha.in/posts/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/osintforall/email/email/</loc>
+    <loc>https://amoghavarsha.in/posts/movies/movies/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/gaming/</loc>
+    <loc>https://amoghavarsha.in/tags/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/insight/</loc>
+    <loc>https://amoghavarsha.in/socials/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blogs/mindbending/mindbinding/</loc>
+    <loc>https://amoghavarsha.in/support/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blogs/childhood/childhood/</loc>
-  </url><url>
-    <loc>/tags/movies/</loc>
-  </url><url>
-    <loc>/</loc>
-  </url><url>
-    <loc>/blogs/newfoundlove/newfoundlove/</loc>
-  </url><url>
-    <loc>/tags/opinion/</loc>
-  </url><url>
-    <loc>/tags/personal/</loc>
-  </url><url>
-    <loc>/tags/recent/</loc>
-  </url><url>
-    <loc>/blogs/movies/movies/</loc>
-  </url><url>
-    <loc>/osintforall/steganography/steganography/</loc>
-  </url><url>
-    <loc>/tags/</loc>
-  </url><url>
-    <loc>/blogs/web-1.5/web-1.5/</loc>
-  </url><url>
-    <loc>/blogs/whataboutabout/whataboutabout/</loc>
+    <loc>https://amoghavarsha.in/categories/</loc>
   </url>
 </urlset>
