@@ -87,5 +87,14 @@ Steganography has been an art since the ancient days used to write hidden messag
       <description>Your support means a lot ❤️ 1. Ko-fi ♨️ 2. Buy me a coffee ☕ 3. Patreon 🤝 </description>
     </item>
     
+    <item>
+      <title>Zines</title>
+      <link>https://amoghavarsha.in/zines/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://amoghavarsha.in/zines/</guid>
+      <description>div.gallery:hover { border: 1px solid #777; } div.gallery img { width: 100%; height: auto; } div.desc { padding: 15px; text-align: center; } * { box-sizing: border-box; } .responsive { padding: 0 6px; float: left; width: 24.99999%; } @media only screen and (max-width: 700px) { .responsive { width: 49.99999%; margin: 6px 0; } } @media only screen and (max-width: 500px) { .responsive { width: 100%; } } .clearfix:after { content: &#34;</description>
+    </item>
+    
   </channel>
 </rss>
