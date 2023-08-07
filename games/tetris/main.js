@@ -62,6 +62,11 @@ let currentRotation = 0;
 let random = Math.floor(Math.random()*theShapes.length)
 let currentShape = theShapes[random][currentRotation]
 
+
+
+
+
+
 function draw(){
 
     currentShape.forEach((index)=>{
@@ -152,9 +157,10 @@ function moveRight(){
     draw()
 }
 
+
 function rotate(){
     erase()
-    currentRotation++ // 0-1-2-3-4
+    currentRotation++
     if(currentRotation === 4){
         currentRotation = 0
     }
@@ -163,7 +169,47 @@ function rotate(){
     draw()
 }
 
-// add functionality to pause button
+
+/*
+function rotate() {
+    erase()
+
+    // Store the current rotation and shape index to check for collisions
+    const originalRotation = currentRotation;
+    const originalPosition = currentPosition;
+
+    // Increment the currentRotation to the next rotation
+    currentRotation++;
+    if (currentRotation === 4) {
+        currentRotation = 0;
+    }
+
+    // Get the new shape after rotation
+    const newShape = theShapes[random][currentRotation];
+
+    // Check if the new shape will cause collisions
+    let collision = newShape.some(index => {
+        const newPosition = currentPosition + index;
+        const isLeftBlockage = newPosition % width === 0;
+        const isRightBlockage = newPosition % width === width - 1;
+        const isBlockage = squares[newPosition].classList.contains('freeze');
+        return isLeftBlockage || isRightBlockage || isBlockage;
+    });
+
+    if (!collision) {
+        // If there are no collisions, update the currentShape and draw the new shape
+        currentShape = newShape;
+        draw();
+    } else {
+        // If there are collisions, revert the changes
+        currentRotation = originalRotation;
+        currentPosition = originalPosition;
+        currentShape = theShapes[random][currentRotation];
+        draw();
+    }
+}
+*/
+
 function pause(){
     if(timer){
         clearInterval(timer)
