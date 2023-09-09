@@ -6,7 +6,18 @@
     <description>Recent content on Amoghavarsha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 21:27:21 +0530</lastBuildDate><atom:link href="https://amoghavarsha.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Aug 2023 00:48:04 +0530</lastBuildDate><atom:link href="https://amoghavarsha.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Communities - The Good, The Bad and The Ugly</title>
+      <link>https://amoghavarsha.in/posts/community/community/</link>
+      <pubDate>Sun, 27 Aug 2023 00:48:04 +0530</pubDate>
+      
+      <guid>https://amoghavarsha.in/posts/community/community/</guid>
+      <description>&amp;ldquo;Community: a group of people living in the same place or having a particular characteristic in common.&amp;rdquo;
+It&amp;rsquo;s a fission reaction! If we consider the whole world as a giant community and start dividing it into subgroups, there would be millions of little groups. Some call it diversity, and some call it poles. Whatever it is, we live in some kind of community, knowingly or unknowingly.
+Some communities we choose deliberately because they pique our interest, and some of them are just inevitable.</description>
+    </item>
+    
     <item>
       <title>Facebook And Midnight Mass</title>
       <link>https://amoghavarsha.in/posts/midnight/midnight/</link>
@@ -46,7 +57,7 @@ Radamsa is a fuzzer. In technical terms, it is a test case generator for robustn
       
       <guid>https://amoghavarsha.in/posts/non-linear/non-linear/</guid>
       <description>Mind-bending/non-linear/mind-twisting movies have a special place in my heart. So here’s a list of some non-linear movies that I’ve watched, those of which I can remember.
- Inception Interstellar Identity (2003) Mr.Nobody (2009) Mulholland Drive 2001: A Space Odyssey (1968) Memento (2000) Eternal Sunshine of the Spotless Mind (2004) Groundhog Day Black Swan (2010) Pi (1998) Shutter Island (2010) The Butterfly Effect (2004) Triangle (2009) Confessions (2010) [Japanese] Donnie Darko (2001) 3-Iron (2004) [Korean] Be With You (2018) [Korean] Fight Club The Man from Earth (2007) Source Code (2011) Birdman (2014) The Fountain (2006) Timecrimes (2007) [Spanish] Paprika (2006) [Anime] Mirage (2018) [Spanish] The Double (2013) Predestination (2014) Synecdoche, New York (2008) Primer (2004) Enemy (2013) Vanilla Sky (2001) Looper (2012) The Others (2001) Mother!</description>
+Inception Interstellar Identity (2003) Mr.Nobody (2009) Mulholland Drive 2001: A Space Odyssey (1968) Memento (2000) Eternal Sunshine of the Spotless Mind (2004) Groundhog Day Black Swan (2010) Pi (1998) Shutter Island (2010) The Butterfly Effect (2004) Triangle (2009) Confessions (2010) [Japanese] Donnie Darko (2001) 3-Iron (2004) [Korean] Be With You (2018) [Korean] Fight Club The Man from Earth (2007) Source Code (2011) Birdman (2014) The Fountain (2006) Timecrimes (2007) [Spanish] Paprika (2006) [Anime] Mirage (2018) [Spanish] The Double (2013) Predestination (2014) Synecdoche, New York (2008) Primer (2004) Enemy (2013) Vanilla Sky (2001) Looper (2012) The Others (2001) Mother!</description>
     </item>
     
     <item>
@@ -84,7 +95,7 @@ Steganography has been an art since the ancient days used to write hidden messag
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://amoghavarsha.in/socials/</guid>
-      <description>Here are some links to my blogs, contacts, and social media Visit my Neocities Social Media  Facebook Twitter Instagram Mastadon Friendica Pixelfed Pleroma  YouTube  Linux For All Osint For All Peertube  Contact  Matrix - @the_amoghavarsha:matrix.org Email Discord - Amogh#1868  Blogs  Dev Newsletter Amogh&amp;rsquo;s Tech Blog Osint Articles Critical Systems  Development  Github  Misc  Links StartMe Achievements  Support  Ko-fi Buy me a coffee Patreon  </description>
+      <description>Here are some links to my blogs, contacts, and social media Visit my Neocities Social Media Facebook Twitter Instagram Mastadon Friendica Pixelfed Pleroma YouTube Linux For All Osint For All Peertube Contact Matrix - @the_amoghavarsha:matrix.org Email Discord - Amogh#1868 Blogs Dev Newsletter Amogh&amp;rsquo;s Tech Blog Osint Articles Critical Systems Development Github Misc Links StartMe Achievements Support Ko-fi Buy me a coffee Patreon </description>
     </item>
     
     <item>
@@ -102,7 +113,7 @@ Steganography has been an art since the ancient days used to write hidden messag
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://amoghavarsha.in/zines/</guid>
-      <description>div.gallery:hover { border: 1px solid #777; } div.gallery img { width: 100%; height: auto; } div.desc { padding: 15px; text-align: center; } * { box-sizing: border-box; } .responsive { padding: 0 6px; float: left; width: 24.99999%; } @media only screen and (max-width: 700px) { .responsive { width: 49.99999%; margin: 6px 0; } } @media only screen and (max-width: 500px) { .responsive { width: 100%; } } .clearfix:after { content: &#34;</description>
+      <description> List of keywords in C Character sets and Tokens in C &#39;for&#39; loops &amp; don&#39;t care attitude&#39; Niche Linux commands </description>
     </item>
     
   </channel>
