@@ -102,7 +102,7 @@ function stop(){
         draw()
         gameOver()
         addScore()
-        
+
     }
 }
 
@@ -138,7 +138,7 @@ function moveLeft(){
     if(!LeftBlockage && !Blockage){
         currentPosition--;
     }
-    
+
 
     draw()
 }
@@ -152,12 +152,12 @@ function moveRight(){
     if(!RightBlockage && !Blockage){
         currentPosition++;
     }
-    
+
 
     draw()
 }
 
-
+/*
 function rotate(){
     erase()
     currentRotation++
@@ -168,9 +168,8 @@ function rotate(){
 
     draw()
 }
+*/
 
-
-/*
 function rotate() {
     erase()
 
@@ -208,7 +207,7 @@ function rotate() {
         draw();
     }
 }
-*/
+
 
 function pause(){
     if(timer){
