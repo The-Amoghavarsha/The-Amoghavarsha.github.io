@@ -308,12 +308,28 @@ program. Sometimes It could also generate more than one output.</p>
 <li><strong>Data through pipes</strong></li>
 </ul>
 <pre tabindex="0"><code>echo &#34;Anaesthesia&#34; | radamsa
-</code></pre><p><img src="/posts/radamsa/1.png" alt="1"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/radamsa/1.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <ul>
 <li><strong>Number mutator</strong></li>
 </ul>
 <pre tabindex="0"><code>echo &#34;Anaesthesia 1337&#34; | radamsa --seed 2
-</code></pre><p><img src="/posts/radamsa/2.png" alt="2"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/radamsa/2.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>In the above example, Radamsa uses number mutation to change the
 textual numbers with something else.</p>
 <ul>
@@ -321,13 +337,29 @@ textual numbers with something else.</p>
 </ul>
 <p>Using -n flag, multiple number of outputs could be generated.</p>
 <pre tabindex="0"><code>echo &#34;Anaesthesia 1337&#34; | radamsa --seed 8 -n 4
-</code></pre><p><img src="/posts/radamsa/3.png" alt="3"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/radamsa/3.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>To learn more about different options, use the man page.</p>
 <pre tabindex="0"><code>man radamsa
 </code></pre><ul>
 <li><strong>Reading input from standard input</strong></li>
 </ul>
-<p><img src="/posts/radamsa/4.png" alt="4"></p>
+
+
+
+
+
+
+<img src="/posts/radamsa/4.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p><em>bc</em> is a language that supports arbitrary precision numbers with
 interactive execution of
 statements. xargs is used to execute commands from standard input.</p>
@@ -336,16 +368,40 @@ statements. xargs is used to execute commands from standard input.</p>
 </ul>
 <p>Let’s create a text file named l.txt and radamsit out and see if it
 could give us a random password!</p>
-<p><img src="/posts/radamsa/5.png" alt="5"></p>
+
+
+
+
+
+
+<img src="/posts/radamsa/5.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>Above is the content of l.txt.</p>
 <pre tabindex="0"><code>radamsa l.txt
 </code></pre><p>After two iterations, radamsa generated a nice little string that
 could be used as a password.</p>
-<p><img src="/posts/radamsa/6.png" alt="6"></p>
+
+
+
+
+
+
+<img src="/posts/radamsa/6.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <ul>
 <li><strong>Creating XSS payloads</strong></li>
 </ul>
-<p><img src="/posts/radamsa/7.png" alt="7"></p>
+
+
+
+
+
+
+<img src="/posts/radamsa/7.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <ul>
 <li><strong>Fuzzing with different file formats</strong></li>
 </ul>
@@ -354,7 +410,15 @@ give us a randomly generated string. So let’s compress l.txt to gzip
 and see if radamsa could give us the output.</p>
 <pre tabindex="0"><code>gzip l.txt
 radamsa l.txt.gz
-</code></pre><p><img src="/posts/radamsa/8.png" alt="8"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/radamsa/8.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <h1 id="radamsa-as-a-tcp-client">Radamsa As A TCP Client</h1>
 <p>Radamsa is also capable of acting as a TCP client/server. So let’s
 start a simple python server see if radamsa could connect to it. And
@@ -364,8 +428,24 @@ input file.</p>
 </code></pre><p>In another tab type the following.</p>
 <pre tabindex="0"><code>radamsa -o 0.0.0.0:8000 -v l.txt.gz
 </code></pre><p>Output</p>
-<p><img src="/posts/radamsa/10.png" alt="10"></p>
-<p><img src="/posts/radamsa/9.png" alt="9"></p>
+
+
+
+
+
+
+<img src="/posts/radamsa/8.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
+
+
+
+
+
+
+<img src="/posts/radamsa/9.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>Final Thoughts</p>
 <p>Tampering with software and then seeing it break and misbehave is a
 delight to many hackers. Fuzzing is an art and Radamsa is one of the

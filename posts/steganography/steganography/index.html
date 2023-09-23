@@ -284,26 +284,74 @@ you can check their <a href="https://github.com/StefanoDeVuono/steghide">Github<
 files, it supports JPEG, BMP, WAV and AU formats.</p>
 <p>Let’s create a text file named secret.txt and try to hide it inside
 an image.</p>
-<p><img src="/posts/steganography/1.png" alt="1"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/1.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <pre tabindex="0"><code>steghide embed -cf yoda.jpg -ef secret.txt
 </code></pre><p>Here -cf is cover file and -ef is embed file. The caveat is, you
 should make sure your cover file is larger than your embed file,
 that’s a no brainer.</p>
-<p><img src="/posts/steganography/2.png" alt="2"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/2.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>Now let’s delete the secret.txt and see if we can extract it back
 from the cover file.</p>
 <pre tabindex="0"><code>steghide extract -sf yoda.jpg
-</code></pre><p><img src="/posts/steganography/3.png" alt="3"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/steganography/3.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>Here the -sf is stego file.</p>
-<p><img src="/posts/steganography/4.png" alt="4"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/4.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>Our secret.txt is extracted. Wanna see what’s inside?</p>
-<p><img src="/posts/steganography/5.png" alt="5"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/5.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <h1 id="strings">Strings</h1>
 <p>Let’s digress from the topic a bit. Strings is a command line tool
 that helps to display printable strings in a file. In a sense, it’s
 just like cat command. If you didn’t know already, now it’s a chance
 to explore it.</p>
-<p><img src="/posts/steganography/6.png" alt="6"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/6.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>strings can be super helpful in steganographic challenges. For
 instance, let’s say, a flag or password is embedded inside an image
 file. And you have to match or put printable strings together in
@@ -311,11 +359,27 @@ order to solve the challenge.</p>
 <p>If you cat out the file, you will end up with gibberish characters
 printed out on to your screen.</p>
 <pre tabindex="0"><code>cat yoda.jpg
-</code></pre><p><img src="/posts/steganography/7.png" alt="7"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/steganography/7.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>Whereas, if you use strings, you’ll get a bunch of strings with
 printable characters.</p>
 <pre tabindex="0"><code>strings yoda.jpg
-</code></pre><p><img src="/posts/steganography/8.png" alt="8"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/steganography/8.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>Among them, one of it might be your password or flag or a clue to
 the next stage.</p>
 <h1 id="exiftool">Exiftool</h1>
@@ -326,29 +390,85 @@ information about the image, such as, geo coordinates, camera model,
 creation date and so on. You can use simple tools like gThumb or
 GIMP to edit medtadata.</p>
 <pre tabindex="0"><code>exiftool yoda.jpg
-</code></pre><p><img src="/posts/steganography/9.png" alt="9"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/steganography/9.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <h1 id="binwalk">Binwalk</h1>
 <p><a href="https://www.kali.org/tools/binwalk/">Binwalk</a> is a tool for searching binary images for embedded files and
 executable code. It is actually a forensic tool, which helps to
 analyse and audit binaries. It gives plenty of options to tinker
 around binary files. Let’s see couple of options.</p>
 <p>Here we have source code of a web page.</p>
-<p><img src="/posts/steganography/10.png" alt="10"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/10.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>It just displays the embedded data in a given file.
 If you want to extract the data from a binary, use -e flag.</p>
-<p><img src="/posts/steganography/11.png" alt="11"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/11.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>The file is extracted to _OpenShot-v2.6.1-x86_64.AppImage.extracted
 folder.</p>
-<p><img src="/posts/steganography/12.png" alt="12"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/12.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <h1 id="wavsteg">Wavsteg</h1>
 <p>WavSteg is a tool written in Python, which can hide data in files
 with a wav format.</p>
 <pre tabindex="0"><code>stegolsb wavsteg -h -i piano.wav -s secret.txt -o stego.wav -n 2
-</code></pre><p><img src="/posts/steganography/13.png" alt="13"></p>
-<p><img src="/posts/steganography/14.png" alt="14"></p>
+</code></pre>
+
+
+
+
+
+<img src="/posts/steganography/13.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
+
+
+
+
+
+
+<img src="/posts/steganography/14.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <p>While extracting data, you have to specify the exact size of
 embedded file(secret.txt) in bytes</p>
-<p><img src="/posts/steganography/15.png" alt="15"></p>
+
+
+
+
+
+
+<img src="/posts/steganography/15.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
 <h1 id="other-useful-resources">Other Useful Resources</h1>
 <p>There are many online tools and professional software that could
 facilitate steganography. Some of them are in the following.</p>

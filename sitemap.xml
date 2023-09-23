@@ -3,18 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://amoghavarsha.in/</loc>
-    <lastmod>2023-09-10T02:13:53+05:30</lastmod>
+    <lastmod>2023-09-17T21:55:27+05:30</lastmod>
   </url><url>
-    <loc>https://amoghavarsha.in/posts/ssh/ssh/</loc>
-    <lastmod>2023-09-10T02:13:53+05:30</lastmod>
+    <loc>https://amoghavarsha.in/posts/scp/scp/</loc>
+    <lastmod>2023-09-17T21:55:27+05:30</lastmod>
   </url><url>
     <loc>https://amoghavarsha.in/posts/</loc>
-    <lastmod>2023-09-10T02:13:53+05:30</lastmod>
+    <lastmod>2023-09-17T21:55:27+05:30</lastmod>
   </url><url>
-    <loc>https://amoghavarsha.in/tags/ssh/</loc>
-    <lastmod>2023-09-10T02:13:53+05:30</lastmod>
+    <loc>https://amoghavarsha.in/tags/scp/</loc>
+    <lastmod>2023-09-17T21:55:27+05:30</lastmod>
   </url><url>
     <loc>https://amoghavarsha.in/tags/</loc>
+    <lastmod>2023-09-17T21:55:27+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/posts/tmux/tmux/</loc>
+    <lastmod>2023-09-17T21:55:07+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/tags/tmux/</loc>
+    <lastmod>2023-09-17T21:55:07+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/posts/multiple-ssh-keys/multiple-ssh-keys/</loc>
+    <lastmod>2023-09-12T11:21:23+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/tags/multiple-keys/</loc>
+    <lastmod>2023-09-12T11:21:23+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/tags/ssh/</loc>
+    <lastmod>2023-09-12T11:21:23+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/tags/pair-programming/</loc>
+    <lastmod>2023-09-10T02:13:56+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/posts/pair-programming-with-tmux/pair-programming-with-tmux/</loc>
+    <lastmod>2023-09-10T02:13:56+05:30</lastmod>
+  </url><url>
+    <loc>https://amoghavarsha.in/posts/ssh/ssh/</loc>
     <lastmod>2023-09-10T02:13:53+05:30</lastmod>
   </url><url>
     <loc>https://amoghavarsha.in/tags/communities/</loc>
