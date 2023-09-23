@@ -1,0 +1,8 @@
+/* CSS styles for responsive images */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
