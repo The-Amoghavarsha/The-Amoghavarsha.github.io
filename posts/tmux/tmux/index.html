@@ -283,12 +283,26 @@ sudo pacman -S tmux (Arch based systems)
 
 sudo dnf -y install tmux (Fedora)
 </code></pre><p>After installation, just type <code>tmux</code> to get started.</p>
+
+
+
+
+
+
+<img src="/images/feature/tmux.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
+<ul>
+<li><code>*</code>     - asterisk represents the current window.</li>
+<li><code>0</code>     - window 0.</li>
+<li><code>bash</code>  - name of the window.</li>
+</ul>
 <p>To open a new window pane:</p>
 <pre tabindex="0"><code>Ctrl+b %
 </code></pre><p>To open a window pane at the bottom:</p>
 <pre tabindex="0"><code>Ctrl+b &#34;
-</code></pre><p>To move inbetween panes:</p>
-<pre tabindex="0"><code>Ctrl+b -&gt; &lt;- (move between panes)
+</code></pre><p>To move in between panes:</p>
+<pre tabindex="0"><code>Ctrl+b -&gt; &lt;- (left and right arrows on your keyboard)
 </code></pre><p>To close the panes:</p>
 <pre tabindex="0"><code>exit
 </code></pre><p>You can also have multiple windows. In order to open a new window,type the
@@ -310,7 +324,7 @@ tmux session. Sessions help you preserve the current state.</p>
 
 Here, `-t` is target and `0` is the name of the session.
 </code></pre><p>To detach a session:</p>
-<pre tabindex="0"><code>Ctrl+b d 
+<pre tabindex="0"><code>Ctrl+b d
 </code></pre><p>You can also rename sessions.</p>
 <pre tabindex="0"><code>tmux rename-session -t 0 git
 
