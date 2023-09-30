@@ -318,22 +318,46 @@ tracking changes in those files. The <code>.gitignore</code>  file contains patt
 local machine.</p>
 <p>Next we&rsquo;ll create some files namely, file1, file2, file3, file4 and file5.</p>
 <p>Let&rsquo;s add some content to <code>file1</code> and include that in <code>.gitignore</code>.</p>
-<p>Now as we can see, we can&rsquo;t see the <code>file1</code> when we use <code>git status</code> as it&rsquo;s
+<p>
+
+
+
+
+
+<img src="/posts/gitignore/1.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
+Now as we can see, we can&rsquo;t see the <code>file1</code> when we use <code>git status</code> as it&rsquo;s
 included in <code>.gitignore</code>.</p>
 <p>After we commit and push the changes, let&rsquo;s check what has happened in our missing file. In order to do that, we can simply type <code>git log --stat</code> to see what has happened to our previous commit.</p>
-<p>So we can see a change has been made to our <code>file2</code> and <code>.gitignore</code>.</p>
+<p>
+
+
+
+
+
+<img src="/posts/gitignore/4.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
+So we can see a change has been made to our <code>file2</code> and <code>.gitignore</code>.</p>
 <p>To investigate further, let&rsquo;s  use <code>git log -p</code>, where <code>p</code> flag
 indicates patch.</p>
-<p>Look what we got here. Let&rsquo;s break down line by line.</p>
-<p><code>diff --Git a/</code>.gitignore<code> b/</code>.gitignore`` indicates that Git is showing a difference(diff) between two versions of the same file named <code>.gitignore</code>. The a/<code>.gitignore</code> and b/<code>.gitignore</code> represent the &ldquo;old&rdquo; and &ldquo;new&rdquo; versions of the file, respectively.</p>
-<p><code>new file mode 100644</code> line specifies the file mode for the new <code>.gitignore</code> file. In this case, it&rsquo;s set to 100644, which is the standard file mode for regular files in Git.</p>
-<p><code>index 0000000..e212970</code> line shows the Git object IDs (SHA-1 hashes) for the old and new versions of the file. In this case, the old version is represented as all zeros (0000000), indicating that it&rsquo;s a new file, and the new version has the SHA-1 hash e212970.</p>
-<p><code>/dev/null +++ b/</code>.gitignore`` - This line is interesting and it indicates that the old version of the file (before the commit) is considered non-existent (/dev/null), and the new version of the file is named <code>.gitignore</code> (the +++ b/<code>.gitignore</code> part).</p>
-<p><code>@@ -0,0 +1 @@</code> line is part of the unified diff format and provides context for the changes. It specifies the line numbers that are being compared between the old and new versions of the file. In this case, it says that there are no lines in the old version (-0,0) and one line in the new version (+1).</p>
-<p>Finally, we caught our <code>file1</code>. <code>+file1</code> line represents the actual change made in the commit. It indicates that the new <code>.gitignore</code> file contains one line, which is &ldquo;filel.&rdquo; This means that the commit added a rule to the <code>.gitignore</code> file to ignore a file named &ldquo;filel.&rdquo;</p>
-<h2 id="when-git-is-ignored">When .git/ Is Ignored</h2>
-<p>Generally, it&rsquo;s not recommended to include <code>git/</code> inside <code>.gitignore</code>. The `git/ directory is the core of our Git repository, containing all the version control history, configuration, and metadata. Ignoring it effectively makes our Git repository non-functional and can lead to various issues.</p>
-<p>The most critical consequence is the loss of our entire version history. Ignoring the `git/ directory means that Git will no longer track our project&rsquo;s changes, branches, commits, or any other version control information. You won&rsquo;t be able to access our project&rsquo;s history, which is one of the primary reasons for using version control.</p>
+<p>
+
+
+
+
+
+<img src="/posts/gitignore/3.png" alt="My Image" style="width: 100%; height: auto;" class="responsive-image" />
+
+
+Look what we got here. Let&rsquo;s break down line by line.</p>
+<p><code>diff --Git a/.gitignore b/.gitignore</code> - This line indicates that Git is showing a difference(diff) between two versions of the same file named <code>.gitignore</code>. The a/<code>.gitignore</code> and b/<code>.gitignore</code> represent the &ldquo;old&rdquo; and &ldquo;new&rdquo; versions of the file, respectively.</p>
+<p><code>new file mode 100644</code> - This line specifies the file mode for the new <code>.gitignore</code> file. In this case, it&rsquo;s set to 100644, which is the standard file mode for regular files in Git.</p>
+<p><code>index 0000000..e212970</code> - This line shows the Git object IDs (SHA-1 hashes) for the old and new versions of the file. In this case, the old version is represented as all zeros (0000000), indicating that it&rsquo;s a new file, and the new version has the SHA-1 hash e212970.</p>
+<p><code>/dev/null +++ b/.gitignore</code> - This line is interesting and it indicates that the old version of the file (before the commit) is considered non-existent (/dev/null), and the new version of the file is named <code>.gitignore</code> (the <code>+++ b/.gitignore</code> part).</p>
+<p><code>@@ -0,0 +1 @@</code> - This line is part of the unified diff format and provides context for the changes. It specifies the line numbers that are being compared between the old and new versions of the file. In this case, it says that there are no lines in the old version (-0,0) and one line in the new version (+1).</p>
+<p>Finally, we caught our <code>file1</code>. <code>+file1</code> - This line represents the actual change made in the commit. It indicates that the new <code>.gitignore</code> file contains one line, which is <code>file1</code>. This means that the commit added a rule to the <code>.gitignore</code> file to ignore a file named <code>file1</code>.</p>
 <p>And an important thing to note here is, <strong>it&rsquo;s not going to hide our files</strong>. If our repository is public and if someone clones the repository, they can still get information about our commit messages, branch names, file paths and so on.</p>
 <p>Then how can we hide our files or make it inaccessible to others? You should
 wait for my next blog post!</p>

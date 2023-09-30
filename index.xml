@@ -50,8 +50,9 @@ Host Cat HostName cat.com User amoghavarsha IdentityFile ~/.ssh/id_rsa Identitie
       <guid>https://amoghavarsha.in/posts/pair-programming-with-tmux/pair-programming-with-tmux/</guid>
       <description>Have you ever wondered how you can do pair programming with your friends using some simple tools?
 To achieve this, you only need two things: ssh and tmux.
+I&amp;rsquo;ve already explained about ssh in my other articles, you can go and check them out to get some basic understanding.
 If you haven&amp;rsquo;t installed tmux, you can do so by typing the following command (Works for Debian based systems):
-sudo apt install tmux I&amp;rsquo;ve already explained about ssh in my other articles, you can go and check them out to get some basic understanding.</description>
+sudo apt install tmux On the remote server, start a new tmux session.</description>
     </item>
     
     <item>
