@@ -291,7 +291,7 @@ How To Easily Fix The Busybox/ Initramfs Error | Amoghavarsha
 <p>As you can see from the above image, the first command that&rsquo;s used here is <code>blkid</code>. It is a Linux command-line utility used to locate or print information about block devices, specifically the attributes of block device files (like /dev/sda).</p>
 <p>When you run this command without any arguments, it will display information about all available block devices. The output typically includes details such as device names, UUIDs, file system types, and other relevant information.</p>
 <p>As you can see, you are supposed to fix <code>/dev/sda5</code>. How do you know that? It depends on one&rsquo;s system and configuration. In this case, when you look at the <code>TYPE</code>, some of them say, <code>ntfs</code>, which is Microsoft&rsquo;s New Technology File System. But you want to fix where Linux is mounted, so the <code>TYPE</code> is <code>ext4</code>.</p>
-<p>Aforementioned, you have to be careful when selecting the disk and know where your partitions are. And on the last line, you can also see the <code>TYPE=swap</code>; don&rsquo;t touch that.</p>
+<p>Aforementioned, you have to be careful when selecting the partition and know where your partitions are. And on the last line, you can also see the <code>TYPE=swap</code>; don&rsquo;t touch that.</p>
 
 
 
