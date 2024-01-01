@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Amoghavarsha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 07:43:15 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2024 23:09:15 +0530</lastBuildDate>
     <atom:link href="https://amoghavarsha.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular</title>
+      <link>https://amoghavarsha.in/tags/angular/</link>
+      <pubDate>Mon, 01 Jan 2024 23:09:15 +0530</pubDate>
+      <guid>https://amoghavarsha.in/tags/angular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ng-cli</title>
+      <link>https://amoghavarsha.in/tags/ng-cli/</link>
+      <pubDate>Mon, 01 Jan 2024 23:09:15 +0530</pubDate>
+      <guid>https://amoghavarsha.in/tags/ng-cli/</guid>
+      <description></description>
+    </item>
     <item>
       <title>busybox</title>
       <link>https://amoghavarsha.in/tags/busybox/</link>
