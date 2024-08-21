@@ -275,7 +275,7 @@ An Introduction To Web Scraping | Amoghavarsha
 <p>Web scraping is hard. Not because it requires extensive knowledge about technologies, but rather the ever-changing, dynamic nature of the web. Let&rsquo;s say if I wrote a web scraper to scrape a website today, it might not work after 3 years. Why? Because the website might have changed in terms of technology, business logic, framework, and so on. Generally, companies don&rsquo;t like others scraping their sites. They also employ a lot of methods to block scraping. Lucky are the ones, who could still scrape the websites that were made 10 years ago. Thanks to those people who haven&rsquo;t changed their code for a very long time! There are ways to create scrapers that could last a long time, but there is nothing called a universal scrapper, at least without changing anything.
 If you have heard about web scraping before, there is a strong chance that you might have also heard about &lsquo;bots&rsquo; doing all the magic. Well, in this blog I&rsquo;m not going to use any &lsquo;bots&rsquo; to scrape web, but Python. </p>
 <h2 id="requests">requests</h2>
-<p>I have used the term&rsquo;sending requests' in the previous sections. Call it a pleasant accident that Python has a HTTP client library called Requests. It lets us do basic CRUD (Create, Read, Update, Delete) operations, which are fundamental in web development and database management. If you don&rsquo;t have <em>requests</em> installed, you can do so by <code>pip3 install requests</code>. We are using <a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a> to understand how&rsquo;requests` work. This website is useful when we need some fake data to test things and play around.</p>
+<p>I have used the term &lsquo;sending requests&rsquo; in the previous sections. Call it a pleasant accident that Python has a HTTP client library called Requests. It lets us do basic CRUD (Create, Read, Update, Delete) operations, which are fundamental in web development and database management. If you don&rsquo;t have <em>requests</em> installed, you can do so by <code>pip3 install requests</code>. We are using <a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a> to understand how <code>requests</code> work. This website is useful when we need some fake data to test things and play around.</p>
 <ol>
 <li>Create - As the name suggests, we are about to create something. In the language of HTTP, let&rsquo;s call it POST. When we POST something, it gets CREATED on the database or a server. </li>
 </ol>
@@ -292,7 +292,7 @@ response <span style="color:#f92672">=</span> requests<span style="color:#f92672
 print(<span style="color:#e6db74">&#34;Create Response:&#34;</span>)
 print(response<span style="color:#f92672">.</span>json())
 print(<span style="color:#e6db74">&#34;Response code:&#34;</span>, response<span style="color:#f92672">.</span>status_code)
-</code></pre></div><p>In the above code, we are importing <code>requests</code> and using it to post (<strong>requests.post(url, json=data)</strong>) some data to the jsonplaceholder website and printing the result. Here the <code>Response code</code> indicates whether our request was successfully fulfilled or not. We are good to go if we get 200 or 201.</p>
+</code></pre></div><p>In the above code, we are importing <code>requests</code> and using it to post (i.e <strong>requests.post(url, json=data)</strong>) some data to the jsonplaceholder website and printing the result. Here the <code>Response code</code> indicates whether our request was successfully fulfilled or not. We are good to go if we get 200 or 201.</p>
 <pre tabindex="0"><code>#OUTPUT
 
 Create Response:
@@ -306,7 +306,7 @@ Response code: 201
 response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;http://ipinfo.io/&#39;</span>)
 print(<span style="color:#e6db74">&#34;Response Text:&#34;</span>, a<span style="color:#f92672">.</span>text)
 print(<span style="color:#e6db74">&#34;Response code:&#34;</span>, response<span style="color:#f92672">.</span>status_code)
-</code></pre></div><p>In the above code, from ipinfo.io we are getting information (<strong>requests.get(&lsquo;<a href="http://ipinfo.io/'">http://ipinfo.io/'</a>)</strong>) about our public ip and location.</p>
+</code></pre></div><p>In the above code, from ipinfo.io we are getting information (i.e <strong>requests.get(&lsquo;<a href="http://ipinfo.io/'">http://ipinfo.io/'</a>)</strong>) about our public IP and location.</p>
 <pre tabindex="0"><code>#OUTPUT
 
 Response Text: {
@@ -359,7 +359,7 @@ print(<span style="color:#e6db74">&#34;Response code:&#34;</span>, response<span
 Partial Update Response:
 {'userId': 1, 'id': 1, 'title': 'Batman', 'body': 'Vigilante'}
 Response code: 200
-</code></pre><p>In the above two code snippets, we are updating (<strong>requests.put(url, json=data)</strong>)/patching(<strong>requests.patch(url, json=data)</strong>) some data.</p>
+</code></pre><p>In the above two code snippets, we are updating (i.e <strong>requests.put(url, json=data)</strong>)/patching(i.e <strong>requests.patch(url, json=data)</strong>) some data.</p>
 <ol start="4">
 <li>Delete</li>
 </ol>
@@ -374,8 +374,8 @@ print(response<span style="color:#f92672">.</span>status_code)
 
 Delete Response:
 200
-</code></pre><p>In the above code snippet, we delete (<strong>requests.delete(url)</strong>) the data.</p>
-<p>If you are a cool kid, you might question, It&rsquo;s easy to understand how <code>get</code> works as it&rsquo;s just fetching some data from a website that is already there; what about other operations? Are we creating and deleting stuff on the website? Well no, jsonplaceholder simulates the behavior of an actual API.  It returns a successful response to indicate that our request was processed correctly, even though no actual changes are made to their persistent database.</p>
+</code></pre><p>In the above code snippet, we delete (i.e <strong>requests.delete(url)</strong>) the data.</p>
+<p>If you are a cool kid, you might question, that, it&rsquo;s easy to understand how <code>get</code> works as it&rsquo;s just fetching some data from a website that is already there; what about other operations? Are we creating and deleting stuff on the website? Well no, jsonplaceholder simulates the behavior of an actual API.  It returns a successful response to indicate that our request was processed correctly, even though no actual changes are made to their persistent database.</p>
 <p>Now, we&rsquo;ll move on to cooler stuff. As aforementioned, web scraping is just scraping up some data associated with HTML tags. Let&rsquo;s prove that right. Copy the code below and save the file as scrape.html. And please don&rsquo;t follow this coding practice, it&rsquo;s just for the show. Using multiple <code>&lt;p&gt;</code> tags and throwing classes and <code>&lt;div&gt;</code> tags around, please no!</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
@@ -427,8 +427,8 @@ Span content: This is a scrapable site
 Bold content: Believe it or not
 Emphasized content: Eminem
 Email: lol@lol.com
-</code></pre><p>In the above code, first we open our file&rsquo;scrape.html&rsquo;, and next we create a <code>soup</code> or <code>soup object</code> that helps parse the HTML document into a structured format that allows us to navigate and manipulate it easily. </p>
-<p>First, we find the first <code>&lt;a&gt;</code> and extract the href attribute of the first <code>&lt;a&gt;</code> tag in the HTML.</p>
+</code></pre><p>In the above code, first we open our file <code>scrape.html</code>, and next we create a <code>soup</code> or <code>soup object</code> that helps parse the HTML document into a structured format that allows us to navigate and manipulate it easily. </p>
+<p>First, we find the first <code>&lt;a&gt;</code> and extract the <code>href</code> attribute of the first <code>&lt;a&gt;</code> tag in the HTML.</p>
 <p>Next, we subsequently find <code>#quote</code>, <code>span</code>, <code>strong</code>, <code>strong</code>, <code>em</code> elements and print their content.</p>
 <p>Finally, we grab the email by looping through the <code>&lt;a&gt;</code> tags to find the one with <code>mailto</code>, then we extract the email address by removing the <code>mailto</code> prefix. </p>
 <p>Now, let&rsquo;s move on to do something cooler. We&rsquo;ll try to download some images from the internet using a few lines of code. Cat pics dream coming true! Copy the code and save it as <code>unsplash.py</code>.</p>
@@ -465,7 +465,7 @@ images <span style="color:#f92672">=</span> [tag[<span style="color:#e6db74">&#3
 
 <p>In the above code, we import <code>requests</code>, <code>bs4</code> and <code>os</code>. We&rsquo;ll use unsplash.com to get the images. Next, we create a <code>soup object</code> to parse the HTML content. Next, we find all <code>&lt;img&gt;</code> tags in the parsed HTML that have a <code>src</code> attribute (which usually contains the image URL). In the next line, we extract the <code>src</code> attribute from the first 5 <code>&lt;img&gt;</code> tags. We can increase the number if we want. Next, we download the image and store it with a.jpg extension using the <code>f&quot;IMG_{i}.jpg</code> format.</p>
 <p>If you don&rsquo;t need cat pictures, you can just change the <code>search_query</code> to whatever you want. And if you want to increase or decrease the number of images, change the number in <code>images = [tag['src'] for tag in image_tags if 'src' in tag.attrs][:5]</code> to any number you want.</p>
-<p>Finally, we&rsquo;ll wrap this up by getting some details about restaurents in Bali (or any other major city you want) from the Yellow Pages. Save the file as <code>yellow.py</code>.</p>
+<p>Finally, we&rsquo;ll wrap this up by getting some details about restaurants in Bali (or any other major city you want) from the Yellow Pages. Save the file as <code>yellow.py</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
 <span style="color:#f92672">import</span> urllib.request
 <span style="color:#f92672">import</span> urllib.error
