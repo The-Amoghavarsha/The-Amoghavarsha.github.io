@@ -1,9 +1,11 @@
-const holes = document.querySelectorAll(".hole");
-const scoreBoard = document.querySelector(".score");
-const dolls = document.querySelectorAll(".doll");
+let holes = document.querySelectorAll(".hole");
+let scoreBoard = document.querySelector(".score");
+let dolls = document.querySelectorAll(".doll");
 let lastHole;
-let timeUp = false;
+let timeUp = true;  
 let score = 0;
+let gameStarted = false;  
+let gameTimer;
 
 function randomTime(min, max) {
     return Math.round(Math.random() * (max - min) + min);
@@ -30,18 +32,37 @@ function peep() {
 }
 
 function startGame() {
-    scoreBoard.textContent = 0;
-    timeUp = false;
-    score = 0;
-    peep();
-    setTimeout(() => (timeUp = true), 10000);
+    if (timeUp && !gameStarted) {  
+        restartGame();  
+    } else if (timeUp && gameStarted) {  
+        timeUp = false;
+        peep();
+    }
+}
+
+function stopGame() {
+    timeUp = true;
+    clearTimeout(gameTimer);
+}
+
+function restartGame() {
+    stopGame();  
+    score = 0;  
+    scoreBoard.textContent = score;  
+    gameStarted = true;  
+    timeUp = false;  
+    peep();  
 }
 
 function bonk(e) {
-    if (!e.isTrusted) return; 
+    if (!e.isTrusted) return;  
     score++;
     this.classList.remove("up");
     scoreBoard.textContent = score;
 }
 
+
+document.querySelector(".stop-button").addEventListener("click", stopGame);
+
 dolls.forEach(doll => doll.addEventListener("click", bonk));
+
