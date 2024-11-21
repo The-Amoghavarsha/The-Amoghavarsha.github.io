@@ -6,224 +6,312 @@
     <description>Recent content in Tags on Amoghavarsha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Oct 2024 18:43:42 +0530</lastBuildDate>
-    <atom:link href="https://amoghavarsha.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Nov 2024 05:37:47 +0530</lastBuildDate><atom:link href="https://amoghavarsha.in/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Linux</title>
+      <title>dual boot</title>
+      <link>https://amoghavarsha.in/tags/dual-boot/</link>
+      <pubDate>Thu, 21 Nov 2024 05:37:47 +0530</pubDate>
+      
+      <guid>https://amoghavarsha.in/tags/dual-boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grub</title>
+      <link>https://amoghavarsha.in/tags/grub/</link>
+      <pubDate>Thu, 21 Nov 2024 05:37:47 +0530</pubDate>
+      
+      <guid>https://amoghavarsha.in/tags/grub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
       <link>https://amoghavarsha.in/tags/linux/</link>
-      <pubDate>Fri, 25 Oct 2024 18:43:42 +0530</pubDate>
+      <pubDate>Thu, 21 Nov 2024 05:37:47 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/linux/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Terminal</title>
+      <title>windows</title>
+      <link>https://amoghavarsha.in/tags/windows/</link>
+      <pubDate>Thu, 21 Nov 2024 05:37:47 +0530</pubDate>
+      
+      <guid>https://amoghavarsha.in/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
       <link>https://amoghavarsha.in/tags/terminal/</link>
       <pubDate>Fri, 25 Oct 2024 18:43:42 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/terminal/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Wifi</title>
+      <title>wifi</title>
       <link>https://amoghavarsha.in/tags/wifi/</link>
       <pubDate>Fri, 25 Oct 2024 18:43:42 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/wifi/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Python</title>
+      <title>python</title>
       <link>https://amoghavarsha.in/tags/python/</link>
       <pubDate>Wed, 21 Aug 2024 10:10:02 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/python/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Web Scraping</title>
+      <title>web scraping</title>
       <link>https://amoghavarsha.in/tags/web-scraping/</link>
       <pubDate>Wed, 21 Aug 2024 10:10:02 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/web-scraping/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Angular</title>
       <link>https://amoghavarsha.in/tags/angular/</link>
       <pubDate>Mon, 01 Jan 2024 23:09:15 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/angular/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Ng-Cli</title>
+      <title>ng-cli</title>
       <link>https://amoghavarsha.in/tags/ng-cli/</link>
       <pubDate>Mon, 01 Jan 2024 23:09:15 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/ng-cli/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Busybox</title>
+      <title>busybox</title>
       <link>https://amoghavarsha.in/tags/busybox/</link>
       <pubDate>Thu, 28 Dec 2023 07:43:15 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/busybox/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Initramfs</title>
+      <title>initramfs</title>
       <link>https://amoghavarsha.in/tags/initramfs/</link>
       <pubDate>Thu, 28 Dec 2023 07:43:15 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/initramfs/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Deployment</title>
+      <title>deployment</title>
       <link>https://amoghavarsha.in/tags/deployment/</link>
       <pubDate>Mon, 18 Dec 2023 21:18:26 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/deployment/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Gh-Pages</title>
+      <title>gh-pages</title>
       <link>https://amoghavarsha.in/tags/gh-pages/</link>
       <pubDate>Mon, 18 Dec 2023 21:18:26 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/gh-pages/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Github</title>
+      <title>github</title>
       <link>https://amoghavarsha.in/tags/github/</link>
       <pubDate>Mon, 18 Dec 2023 21:18:26 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/github/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>React-Js</title>
+      <title>react-js</title>
       <link>https://amoghavarsha.in/tags/react-js/</link>
       <pubDate>Mon, 18 Dec 2023 21:18:26 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/react-js/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Mastodon</title>
+      <title>mastodon</title>
       <link>https://amoghavarsha.in/tags/mastodon/</link>
       <pubDate>Tue, 10 Oct 2023 22:18:23 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/mastodon/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Git</title>
+      <title>git</title>
       <link>https://amoghavarsha.in/tags/git/</link>
       <pubDate>Wed, 20 Sep 2023 09:51:54 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/git/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Gitignore</title>
+      <title>gitignore</title>
       <link>https://amoghavarsha.in/tags/gitignore/</link>
       <pubDate>Wed, 20 Sep 2023 09:51:54 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/gitignore/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Scp</title>
+      <title>scp</title>
       <link>https://amoghavarsha.in/tags/scp/</link>
       <pubDate>Sun, 17 Sep 2023 21:55:27 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/scp/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Tmux</title>
+      <title>tmux</title>
       <link>https://amoghavarsha.in/tags/tmux/</link>
       <pubDate>Sun, 17 Sep 2023 21:55:07 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/tmux/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Multiple Keys</title>
+      <title>multiple keys</title>
       <link>https://amoghavarsha.in/tags/multiple-keys/</link>
       <pubDate>Tue, 12 Sep 2023 11:21:23 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/multiple-keys/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Ssh</title>
+      <title>ssh</title>
       <link>https://amoghavarsha.in/tags/ssh/</link>
       <pubDate>Tue, 12 Sep 2023 11:21:23 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/ssh/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Pair Programming</title>
+      <title>pair programming</title>
       <link>https://amoghavarsha.in/tags/pair-programming/</link>
       <pubDate>Sun, 10 Sep 2023 02:13:56 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/pair-programming/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Communities</title>
+      <title>communities</title>
       <link>https://amoghavarsha.in/tags/communities/</link>
       <pubDate>Sun, 27 Aug 2023 00:48:04 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/communities/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Newbie</title>
+      <title>newbie</title>
       <link>https://amoghavarsha.in/tags/newbie/</link>
       <pubDate>Sun, 27 Aug 2023 00:48:04 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/newbie/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Arrays</title>
+      <title>arrays</title>
       <link>https://amoghavarsha.in/tags/arrays/</link>
       <pubDate>Fri, 21 Jul 2023 19:34:01 +0530</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/arrays/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Ctf</title>
+      <title>ctf</title>
       <link>https://amoghavarsha.in/tags/ctf/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/ctf/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Fuzzing</title>
+      <title>fuzzing</title>
       <link>https://amoghavarsha.in/tags/fuzzing/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/fuzzing/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Infosec</title>
+      <title>infosec</title>
       <link>https://amoghavarsha.in/tags/infosec/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/infosec/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Mind-Bending</title>
+      <title>mind-bending</title>
       <link>https://amoghavarsha.in/tags/mind-bending/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/mind-bending/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Movies</title>
+      <title>movies</title>
       <link>https://amoghavarsha.in/tags/movies/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/movies/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Non-Linear</title>
+      <title>non-linear</title>
       <link>https://amoghavarsha.in/tags/non-linear/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/non-linear/</guid>
       <description></description>
     </item>
+    
     <item>
-      <title>Steganography</title>
+      <title>steganography</title>
       <link>https://amoghavarsha.in/tags/steganography/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://amoghavarsha.in/tags/steganography/</guid>
       <description></description>
     </item>
+    
   </channel>
 </rss>
